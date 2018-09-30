@@ -74,14 +74,7 @@ int main()
 	d1.Clear();
 	
 	///// begin //////
-	
-					/*d1.AddFigure(f1);
-					d1.Print();
-					TimeDelay( 20 * Delay);
-					d1.Clear();
-					system("cls");*/
 
-			
 
 	while ( true )
 	{
@@ -95,52 +88,6 @@ int main()
 			f1.Update1();
 			d1.Clear();
 	}
-
-
-
-
-	// тестирование экрана
-	/*char Test[40][41];
-	for (int i = 0; i < 40; i++)
-	{
-		for (int j = 0; j < 40; j++)
-		{
-			Test[i][j] = '@';
-		}
-	}
-
-
-	for (int k = 0; k < 30; k++)
-	{
-				
-		for (int i = 0; i < 40; i++)
-		{
-			for (int j = 0; j < 40; j++)
-			{
-				Test[i][j] += k;
-			}
-		}
-		for (int i = 0; i < 40; i++)
-		{
-			Test[i][40] = '\0';
-		}
-
-		for (int i = 0; i < 40; i++)
-		{
-			for (int j = 0; j < 40; j++)
-			{
-						cout << Test[i][j];
-			
-
-			}
-			cout << endl;
-		}
-		
-		
-		TimeDelay(150);
-		system("cls");
-	}*/
-	
 
 	
 	system("pause");
